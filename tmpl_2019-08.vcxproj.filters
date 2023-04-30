@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttons.cpp">
+      <Filter>Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers.cpp">
+      <Filter>Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>Crates</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers.h">
+      <Filter>Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>Crates</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crates">
+      <UniqueIdentifier>{8535ca9c-8ad1-4f64-ade5-3b451484f47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backstage">
+      <UniqueIdentifier>{6c12c52a-0a12-4193-b38b-0a723eba752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{de7aaa62-1ec1-4d83-984d-ed860f72dbd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
