@@ -112,6 +112,7 @@ using namespace Tmpl8;
 			}
 			else
 			{
+				sprite->SetFrame(0);
 				BounceSoundeffect.setPitch(1);
 				BounceSoundeffect.play();
 				PreviousY = ((position.y - PreviousY) + position.y) - 1;
